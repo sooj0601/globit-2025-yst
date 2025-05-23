@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+	@apply font-sans text-slate-800 bg-white;
+	font-family: Pretendard, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	letter-spacing: -0.03em;
+	line-height: 1.5;
+	font-width: 400;
+	margin: 0;
+}
+
+button, a {
+	@apply cursor-pointer;
+}
